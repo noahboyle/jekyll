@@ -6,7 +6,8 @@ author:
 	name: Noah Boyle
 	email: nboyle@mica.edu
 	twitter: noah__boyle
-	
+
+# permalink shows directory date and time in website itself if pretty is the chosen modifier	
 permalink: pretty
 # do you wnat to publish future links?
 future: true
