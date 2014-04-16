@@ -7,3 +7,9 @@ author:
 	email: nboyle@mica.edu
 	twitter: noah__boyle
 	
+permalink: pretty
+# do you wnat to publish future links?
+future: true
+
+show_drafts: false
+
