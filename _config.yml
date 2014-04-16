@@ -1,0 +1,19 @@
+# This is for github project pages  <!--we only have to do this because we are using a github project page and not our username page-->
+# noahboyle.github.io/jeckyll
+# noahboyle.github.io
+baseurl: /jekyll
+name: mywebsite
+Description: My Jekyll Website
+
+author: 
+	name: Noah Boyle
+	email: nboyle@mica.edu
+	twitter: noah__boyle
+
+# permalink shows directory date and time in website itself if pretty is the chosen modifier	
+permalink: pretty
+# do you wnat to publish future links?
+future: true
+
+show_drafts: false
+
