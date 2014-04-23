@@ -4,10 +4,10 @@ date: 2014-04-16 18:27:30
 
 ---
 
-# Dear World
+# MOMA SURREAL EXHIBIT
 
-Hello [Internet](http://google.com)
+[Hello Monday](http://hellomonday.com/)
 
-This is my cat:
+![Magritte](http://wpc.7ce6.edgecastcdn.net/807CE6/hellomonday_com/assets/images/case-studies/magritte/header/artwork.jpg?1111233/750/540)
 
-![My Cat](http://placekitten.com/300/300)
+An amazing online exhibit created by Hello Monday. I love the custom, trippy transitions, the great use of avant-garde music, and the experiential quality of the whole site. It is very inventive and engaging, it brought me into a world of an artist I had never heard of and kept me there for a while. I have no idea how it was built but this project is especially what cemented my interest in the firm Hello Monday.
