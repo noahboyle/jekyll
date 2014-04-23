@@ -18,8 +18,11 @@ title: Jekyll Test Site
 </header> 
 
 <section class="list postlist">
+	<div class="container">
+	<div class="header">
 	<h1>Class Blog Posts</h1>
-	
+	</div>
+	<div class="col-lg-4 col-sm-12 col-xs-12">
 	{% for post in site.posts %}  
 	<article>
 	<!--Takes unix time and puts it into a more readable format-->
@@ -31,4 +34,5 @@ title: Jekyll Test Site
 		</h2>
 	</article>
 	{% endfor %}
+	</div>
 </section>
