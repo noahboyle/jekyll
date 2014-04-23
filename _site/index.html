@@ -1,0 +1,21 @@
+---
+<!--Everything that we are writing in the index will be put into the default template-->
+layout: default
+title: Jekyll Test Site
+---
+
+<section class="list postlist">
+	<h1>Class Blog Posts</h1>
+	
+	{% for post in site.posts %}  
+	<article>
+	<!--Takes unix time and puts it into a more readable format-->
+		<time>{{ post.date | date_to_string }}</time>
+		<h3>
+			<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"> <!--This signifies structure-->
+				{{ post.title }}  <!--This signifies content to be created-->
+				</a> 
+		</h3>
+	</article>
+	{% endfor %}
+</section>
