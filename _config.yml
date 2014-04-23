@@ -2,5 +2,7 @@
 # noahboyle.github.io/jekyll
 # noahboyle.github.io
 baseurl: /jekyll
+pygments: true
+github: [Repository metadata]
 
 
