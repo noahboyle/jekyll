@@ -1,2 +1,5 @@
+# noahboyle.github.io/jekyll
+# noahboyle.github.io
+baseurl: /jekyll
 markdown: rdiscount
 pygments: true
