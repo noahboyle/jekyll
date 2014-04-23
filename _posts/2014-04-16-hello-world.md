@@ -1,8 +1,7 @@
 ---
 title: "Hello World"
 date: 2014-04-16 18:27:30 
- <link rel="stylesheet" type="text/css" href="fonts/arq.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+
 ---
 
 # Dear World
