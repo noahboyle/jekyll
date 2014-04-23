@@ -22,7 +22,6 @@ title: Jekyll Test Site
 	<div class="header">
 	<h1>Class Blog Posts</h1>
 	</div>
-	<div class="col-lg-4 col-sm-12 col-xs-12">
 	{% for post in site.posts %}  
 	<article>
 	<!--Takes unix time and puts it into a more readable format-->
@@ -32,7 +31,14 @@ title: Jekyll Test Site
 				{{ post.title }}  <!--This signifies content to be created-->
 				</a> 
 		</h2>
+				<time>{{ post.date | date_to_string }}</time>
+		<h2>
+			<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"> <!--This signifies structure-->
+				{{ post.title }}  <!--This signifies content to be created-->
+				</a> 
+		</h2>
+
 	</article>
 	{% endfor %}
-	</div>
+
 </section>
