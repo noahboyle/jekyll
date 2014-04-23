@@ -4,24 +4,9 @@ layout: default
 title: Jekyll Test Site
 ---
 
-<header>
-	<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" type="text/css" href="fonts/arq.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-</header> 
-
 <section class="list postlist">
-	<div class="container">
-	<div class="header">
 	<h1>Class Blog Posts</h1>
-	</div>
+	
 	{% for post in site.posts %}  
 	<article>
 	<!--Takes unix time and puts it into a more readable format-->
@@ -31,14 +16,6 @@ title: Jekyll Test Site
 				{{ post.title }}  <!--This signifies content to be created-->
 				</a> 
 		</h3>
-				<time>{{ post.date | date_to_string }}</time>
-		<h3>
-			<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"> <!--This signifies structure-->
-				{{ post.title }}  <!--This signifies content to be created-->
-				</a> 
-		</h3>
-
 	</article>
 	{% endfor %}
-
 </section>
