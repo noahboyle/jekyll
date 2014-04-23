@@ -1,6 +1,2 @@
-# This is for github project pages  <!--we only have to do this because we are using a github project page and not our username page-->
-# noahboyle.github.io/jekyll
-# noahboyle.github.io
-baseurl: /jekyll
-
-
+markdown: rdiscount
+pygments: true
